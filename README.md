@@ -2,6 +2,7 @@ This project focuses on analyzing and modeling housing prices using a dataset co
 
 Exploratory Data Analysis (EDA): Initial exploration of the dataset to understand the structure, data types, and potential issues.
 Feature Engineering: Transforming categorical variables into numerical representations using one-hot encoding for multi-valued features and binary encoding for 'yes'/'no' features. Numerical features ('price' and 'area') are also scaled to a similar range.
+
 Regression Analysis: Performing simple linear regression using 'area' as a predictor for 'price' to understand its individual relationship with price and evaluating the model's performance.
 Classification Analysis: Creating a new binary target variable by classifying houses based on whether their price is above or below the median price. A Logistic Regression model is then trained and evaluated to classify houses into these price categories based on the other features.
 The goal is to build models that can predict housing prices and classify houses into different price segments, providing insights into the factors influencing housing values.
